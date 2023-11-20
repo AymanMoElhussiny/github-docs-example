@@ -13,7 +13,30 @@ ayman@ubuntu-tst:~$ git remote -v
 origin  https://github.com/AymanMoElhussiny/hello-remote.git (fetch)
 origin  https://github.com/AymanMoElhussiny/hello-remote.git (push)
 ```
-
+- you can add any name you want for example *another*
+```
+ayman@ubuntu-tst:~$ git remote add another https://github.com/AymanMoElhussiny/hello-remote.git
+ayman@ubuntu-tst:~$ git remote -v
+another https://github.com/AymanMoElhussiny/hello-remote.git (fetch)
+another https://github.com/AymanMoElhussiny/hello-remote.git (push)
+origin  https://github.com/AymanMoElhussiny/hello-remote.git (fetch)
+origin  https://github.com/AymanMoElhussiny/hello-remote.git (push)
+```
+- you can pull any repo of that remote by its name like origin or another that mentioned 
+```
+ayman@ubuntu-tst:~$ git pull origin
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 9 (delta 0), reused 8 (delta 0), pack-reused 0
+Unpacking objects: 100% (9/9), 1.17 KiB | 149.00 KiB/s, done.
+From https://github.com/AymanMoElhussiny/hello-remote
+ * [new branch]      improve-greeting -> origin/improve-greeting
+ * [new branch]      main             -> origin/main
+You asked to pull from the remote 'origin', but did not specify
+a branch. Because this is not the default configured remote
+for your current branch, you must specify a branch on the command line.
+``` 
 
 ## links
 - [McCullough and Berglund on Mastering Git ](http://docs.ptgels.com/)
