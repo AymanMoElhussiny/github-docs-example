@@ -47,7 +47,7 @@ deleted file mode 100644
 index e69de29..0000000
 ```
 - note you cant delete branch you have to check to other branch also if not full merged you have to clarif with (-D) option
-```bash
+```shell
 ayman@ubuntu-tst:~/hello-remote$ git branch -d newbranch 
 error: Cannot delete branch 'newbranch' checked out at '/home/ayman/hello-remote'
 ayman@ubuntu-tst:~/hello-remote$ git checkout main
