@@ -46,6 +46,19 @@ diff --git a/file01.txt b/file01.txt
 deleted file mode 100644
 index e69de29..0000000
 ```
+- note you cant delete branch you have to check to other branch also if not full merged you have to clarif with (-D) option
+```bash
+ayman@ubuntu-tst:~/hello-remote$ git branch -d newbranch 
+error: Cannot delete branch 'newbranch' checked out at '/home/ayman/hello-remote'
+ayman@ubuntu-tst:~/hello-remote$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+ayman@ubuntu-tst:~/hello-remote$ git branch -d newbranch 
+error: The branch 'newbranch' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D newbranch'.
+ayman@ubuntu-tst:~/hello-remote$ git branch -D newbranch 
+Deleted branch newbranch (was 0106710).
+```
 
 ## links
 - [McCullough and Berglund on Mastering Git ](http://docs.ptgels.com/)
