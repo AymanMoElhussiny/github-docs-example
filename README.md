@@ -36,7 +36,8 @@ From https://github.com/AymanMoElhussiny/hello-remote
 You asked to pull from the remote 'origin', but did not specify
 a branch. Because this is not the default configured remote
 for your current branch, you must specify a branch on the command line.
-``` 
+```
+- remote name can be changed later by chaning record it self in [reponame]/.git/refs 
 
 ## links
 - [McCullough and Berglund on Mastering Git ](http://docs.ptgels.com/)
