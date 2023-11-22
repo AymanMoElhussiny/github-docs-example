@@ -37,7 +37,15 @@ You asked to pull from the remote 'origin', but did not specify
 a branch. Because this is not the default configured remote
 for your current branch, you must specify a branch on the command line.
 ```
-- remote name can be changed later by chaning record it self in [reponame]/.git/refs 
+- you can fetch changes and updates from specif remote/branch not only the 
+- remote name can be changed later by chaning record it self in [reponame]/.git/refs
+- you can alway check difference between version and remote 
+```
+ayman@ubuntu-tst:~/hello-remote$ git diff origin/newbranch origin
+diff --git a/file01.txt b/file01.txt
+deleted file mode 100644
+index e69de29..0000000
+```
 
 ## links
 - [McCullough and Berglund on Mastering Git ](http://docs.ptgels.com/)
