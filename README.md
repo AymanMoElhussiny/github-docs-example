@@ -2,7 +2,14 @@
 I am tring to collect note for a wonderful course for git 
 *McCullough and Berglund on Mastering Git*
 
-## 06 remote
+## 1. Set up git and configure git
+## 2. Three stage of git fiel work flow and speed
+## 3. Cloneing
+## 4. Storage and hases
+## 5. Branches
+
+
+## 6. remote
 - You can have as many as remote repos that you want
 - The default name is *origin*
   > it does not have any special thing  it is just a default name and also can be renamed
@@ -59,7 +66,7 @@ If you are sure you want to delete it, run 'git branch -D newbranch'.
 ayman@ubuntu-tst:~/hello-remote$ git branch -D newbranch 
 Deleted branch newbranch (was 0106710).
 ```
-## 07- Tagging
+## 7. Tagging
 
 Git tagging is a feature that allows you to mark specific points in Git history as important. Tags are typically used to capture a point in time that is used for a marked version release (e.g., software version numbers like v1.0.0). Unlike branches, tags in Git are immutable references, meaning they do not change once created.
 
