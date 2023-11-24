@@ -60,5 +60,5 @@ ayman@ubuntu-tst:~/hello-remote$ git branch -D newbranch
 Deleted branch newbranch (was 0106710).
 ```
 
-## links
+## Resources 
 - [McCullough and Berglund on Mastering Git ](http://docs.ptgels.com/)
