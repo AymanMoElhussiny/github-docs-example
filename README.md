@@ -3,9 +3,9 @@ I am tring to collect note for a wonderful course for git
 *McCullough and Berglund on Mastering Git*
 
 ## 1. Set up git and configure git
-## 2. Three stage of git fiel work flow and speed
-## 3. Cloneing
-## 4. Storage and hases
+## 2. Three stage of git file work flow and speed
+## 3. Cloning
+## 4. Storage and hashs
 ## 5. Branches
 
 
