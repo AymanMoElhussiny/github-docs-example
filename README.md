@@ -2,7 +2,7 @@
 I am tring to collect note for a wonderful course for git 
 *McCullough and Berglund on Mastering Git*
 
-### 06 remote
+## 06 remote
 - You can have as many as remote repos that you want
 - The default name is *origin*
   > it does not have any special thing  it is just a default name and also can be renamed
@@ -58,6 +58,27 @@ error: The branch 'newbranch' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D newbranch'.
 ayman@ubuntu-tst:~/hello-remote$ git branch -D newbranch 
 Deleted branch newbranch (was 0106710).
+```
+## 07- Tagging
+
+Git tagging is a feature that allows you to mark specific points in Git history as important. Tags are typically used to capture a point in time that is used for a marked version release (e.g., software version numbers like v1.0.0). Unlike branches, tags in Git are immutable references, meaning they do not change once created.
+
+- Tag is not a branch
+- Why Use Tags?
+
+1. **Release Versions:** Tags are commonly used to signify release points of software. This helps in easily identifying and accessing the codebase at the time of a particular release.
+
+2. **Stable Points:** When your project reaches a stable and well-tested state, you can create a tag to mark that specific commit. This makes it easy to refer back to a known, stable state in the future.
+
+3. **Collaboration:** Tags provide a way for collaborators to synchronize their work based on well-defined points in history, making collaboration more manageable.
+   
+### Types of Tags
+
+1. Lightweighted Tags
+A lightweight tag is simply a reference to a specific commit. It is created using the following command:
+
+```bash
+git tag <tag-name> <commit-hash>
 ```
 
 ## Resources 
