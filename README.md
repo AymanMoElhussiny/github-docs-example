@@ -87,6 +87,11 @@ A lightweight tag is simply a reference to a specific commit. It is created usin
 ```bash
 git tag <tag-name> <commit-hash>
 ```
+## 8.
+## 9. 
+## 10. Undo 
+lk
+## **Bonous tips**
 
 ## Resources 
 - [McCullough and Berglund on Mastering Git ](http://docs.ptgels.com/)
