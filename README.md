@@ -3,6 +3,33 @@ I am tring to collect note for a wonderful course for git
 *McCullough and Berglund on Mastering Git*
 
 ## 1. Set up git and configure git
+
+### 1.1 Install Git:
+- If Git is not already installed on your system, you can download and install it from the official website: [Git Downloads](https://git-scm.com/downloads).
+
+### 1.2 Configure Git with Your Identity:
+- Open a terminal (Command Prompt on Windows, Terminal on macOS/Linux) and set your name and email address. This information will be used to identify your commits.
+```bash
+  git config --global user.name "Your Name"
+  git config --global user.email "your.email@example.com"
+```
+### 1.3 Set Up Default Text Editor:
+ - Git uses a text editor for commit messages. If you haven't set one, Git will use the system default. You can set it using:
+  ```bash
+  git config --global core.editor "your-preferred-editor"
+  ```
+Replace "your-preferred-editor" with the text editor you want to use (e.g., "nano," "vim," "code" for Visual Studio Code).
+
+### 1.4 Checking Configuration:
+To verify your configuration, you can use:
+```bash
+git config --list
+```
+### 1.5 Initialize a Repository 
+```
+git init
+```
+
 ## 2. Three stage of git file work flow and speed
 ## 3. Cloning
 ## 4. Storage and hashs
@@ -90,7 +117,7 @@ git tag <tag-name> <commit-hash>
 ## 8.
 ## 9. 
 ## 10. Undo 
-lk
+
 ## **Bonous tips**
 
 ## Resources 
