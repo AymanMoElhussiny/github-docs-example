@@ -29,8 +29,24 @@ git config --list
 ```
 git init
 ```
+### 1.6 Check Git status:
+To see the status of your changes:
+```bash
+git status
+```
 
-## 2. Three stage of git file work flow and speed
+## 2. Three stage of git file work flow
+The three stages of the Git file workflow, often referred to as the "three-tree architecture," are the Working Directory, the Staging Area (Index), and the Repository. Here's how you switch between them using Git commands:
+- Working Directory to staging Area: 
+```bash
+git add <file1>
+```
+> Use git add to move changes from the Working Directory to the Staging Area. This command stages specific files for the next commit. You can also use git add . to stage all changes.
+- Staging Area to Repository:
+```bash
+git commit -m "Your commit message"
+```
+> The git commit command takes the changes in the Staging Area and permanently saves them in the Git repository. The -m flag allows you to add a commit message directly from the command line.
 ## 3. Cloning
 ## 4. Storage and hashs
 ## 5. Branches
