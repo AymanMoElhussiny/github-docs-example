@@ -355,10 +355,6 @@ Here are the key points about merging in Git:
 
 Merging is an essential part of collaborative development in Git, allowing teams to work on features and bug fixes in isolation and then integrate their changes back into the main project. It helps maintain a clean and organized version history while facilitating parallel development efforts.
 
-## 9.rebasing 
-## 10. Undo 
-
-## **Bonous tips**
 
 ## Resources 
 - [McCullough and Berglund on Mastering Git ](http://docs.ptgels.com/)
