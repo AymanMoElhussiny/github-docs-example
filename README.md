@@ -353,7 +353,38 @@ Here are the key points about merging in Git:
      git mergetool
      ```
 
-Merging is an essential part of collaborative development in Git, allowing teams to work on features and bug fixes in isolation and then integrate their changes back into the main project. It helps maintain a clean and organized version history while facilitating parallel development efforts.
+##
+
+| Git Command                    | Description                                                                                                        |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| `git init`                     | Initializes a new Git repository in the current directory.                                                          |
+| `git clone <repository>`        | Clones a repository from a specified URL, creating a local copy.                                                     |
+| `git add <file>`                | Adds changes in a specific file to the staging area for the next commit.                                              |
+| `git add .`                     | Adds all changes in the working directory to the staging area.                                                         |
+| `git commit -m "message"`      | Records changes in the repository with a descriptive message.                                                         |
+| `git status`                   | Displays the status of changes as untracked, modified, or staged.                                                     |
+| `git diff`                     | Shows the differences between the working directory and the staging area.                                             |
+| `git log`                      | Displays a log of all commits, with commit messages, authors, and timestamps.                                          |
+| `git branch`                   | Lists all local branches in the repository.                                                                          |
+| `git branch <branch_name>`     | Creates a new branch with the specified name.                                                                        |
+| `git checkout <branch>`        | Switches to the specified branch.                                                                                    |
+| `git merge <branch>`           | Combines changes from the specified branch into the current branch.                                                   |
+| `git pull`                     | Fetches changes from a remote repository and merges them into the current branch.                                      |
+| `git push`                     | Pushes changes from the local repository to a remote repository.                                                       |
+| `git remote -v`                | Lists all remote repositories and their URLs.                                                                        |
+| `git fetch`                    | Fetches changes from a remote repository but does not merge them.                                                     |
+| `git reset <file>`             | Unstages changes in a file, keeping the modifications in the working directory.                                       |
+| `git revert <commit>`          | Creates a new commit that undoes the changes made in a previous commit.                                               |
+| `git rm <file>`                | Removes a file from both the working directory and the staging area.                                                   |
+| `git mv <old_name> <new_name>` | Renames a file in both the working directory and the staging area.                                                    |
+| `git tag <tag_name>`           | Creates a lightweight tag at the current commit.                                                                      |
+| `git fetch --tags`             | Fetches tags from a remote repository.                                                                               |
+| `git stash`                    | Temporarily saves changes that are not ready to be committed, allowing you to switch branches.                       |
+| `git cherry-pick <commit>`     | Applies the changes introduced by a specific commit to the current branch.                                            |
+| `git remote add <name> <url>`  | Adds a new remote repository with a specified name and URL.                                                           |
+
+These commands cover a range of Git functionalities, from basic repository setup to more advanced version control operations. Keep in mind that this is not an exhaustive list, and Git has many more commands and options for managing source code and collaboration.
+
 
 
 ## Resources 
